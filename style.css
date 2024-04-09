@@ -54,9 +54,10 @@ main{
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+/* MAIN 1 */
 .container-main{
     max-width: 1900px;
-    height: 1080px;
+    height: 600px;
     margin: 0 auto;
     padding-top: 130px;
 }
@@ -132,6 +133,39 @@ main{
     height: 200px;
     border-radius: 10px;
     
+}
+
+/* MAIN 2 */
+.container-main-2{
+    max-width: 1900px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(151,146,228,255);
+}
+
+.row-main-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50-main-2{
+    width: calc(100% / 2);
+    height: 600px;
+}
+
+.square-1{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    margin-left: 450px;
+}
+
+.square-2{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
 }
 
 
