@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, sans-serif;
+}
+
 header{
     background-color: rgba(0,132,253,255);
     padding: 15px 0px;
@@ -171,7 +175,7 @@ main{
 /* MAIN 3 */
 .container-main-3{
     max-width: 1900px;
-    height: 600px;
+    height: 1100px;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -207,7 +211,7 @@ main{
 
 .col-100-main-3-2{
     width: 100%;
-    height: 600px;
+    height: 900px;
     margin-left: 450px;
     margin-right: 450px;
 }
@@ -219,6 +223,61 @@ main{
     border: 1px solid black;
     margin-bottom: 30px;
     border-radius: 40px;
+}
+
+/* MAIN 4 */
+.container-main-4{
+    max-width: 1900px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+    background-color: rgba(151,146,228,255);
+}
+
+.row-main-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100-main-4{
+    width: 100%;
+    height: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.benefit-working{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.col-33-main-4{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.mini-col-4{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.mini-col-center-4{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
