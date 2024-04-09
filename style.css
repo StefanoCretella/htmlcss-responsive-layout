@@ -6,11 +6,15 @@
 
 header{
     background-color: rgba(0,132,253,255);
-    border: 1px solid black;
     padding: 15px 0px;
     position: fixed;
     width: 100%;
     z-index: 2;
+}
+
+main{
+    width: 100%;
+    height: 1920px;
 }
 
 /* INIZIO HEADER */
@@ -37,7 +41,7 @@ header{
 }
 
 .link-header{
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
 
 }
@@ -48,3 +52,98 @@ header{
     border-radius: 20px;
 }
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+.container-main{
+    max-width: 1900px;
+    height: 1080px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COL 50 MAIN */
+.col-50-main{
+    width: calc(100% / 2);
+}
+
+.demo-application{
+    background-color: rgba(181,221,255,255);
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 430px;
+    margin-right: 5px;
+    width: 670px;
+}
+
+.clean-code{
+    background-color: rgba(181,221,255,255);
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 490px;
+    margin-left: 172px;
+}
+
+/* COL 33 MAIN */
+
+.col-33-main-1{
+    width: 290px;
+    padding-top: 20px;
+    margin-left: 430px;
+}
+
+.web-design{
+    background-color: rgba(181,221,255,255);
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.col-33-main-2{
+    width: 311px;
+    padding-top: 20px;
+    margin-right: 43px;
+    margin-left: 47px;
+}
+
+.developement{
+    background-color: rgba(181,221,255,255);
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.col-33-main-3{
+    width: 290px;
+    padding-top: 20px;
+}
+
+.branding{
+    background-color: rgba(181,221,255,255);
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE MAIN */
