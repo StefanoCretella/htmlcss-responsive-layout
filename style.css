@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: rgba(0,132,253,255);
+    border: 1px solid black;
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+/* INIZIO HEADER */
+.container{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    width: calc(100% / 2);
+}
+
+.logo{
+    text-align: center;
+}
+
+.link{
+    margin-left: 20px;
+}
+
+.link-header{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.get-started{
+    background-color: white;
+    padding: 7px 7px;
+    border-radius: 20px;
+}
+/* FINE HEADER */
