@@ -280,6 +280,39 @@ main{
     margin-right: 30px;
 }
 
+/* MAIN 5 */
+.container-main-5{
+    max-width: 1900px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.row-main-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50-main-5{
+    width: calc(100% / 2);
+    height: 600px;
+}
+
+.square-1-5{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.square-2-5{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    margin-left: 200px;
+}
 
 
 
