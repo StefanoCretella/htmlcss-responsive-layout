@@ -61,7 +61,7 @@ main{
 /* MAIN 1 */
 .container-main{
     max-width: 1900px;
-    height: 600px;
+    height: 680px;
     margin: 0 auto;
     padding-top: 130px;
 }
@@ -71,31 +71,70 @@ main{
     flex-wrap: wrap;
 }
 
-/* COL 50 MAIN */
 .col-50-main{
     width: calc(100% / 2);
 }
 
 .demo-application{
     background-color: rgba(181,221,255,255);
-    border: 1px solid black;
-    height: 200px;
+    height: 240px;
     border-radius: 10px;
     margin-left: 430px;
     margin-right: 5px;
     width: 670px;
 }
 
+.text-1-demo-application{
+    width: 230px;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: rgba(0, 132, 253, 255);
+    font-size: 20px;
+}
+
+.text-2-demo-application{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #595959;
+}
+
+.text-3-demo-application{
+    width: 175px;
+    padding: 10px 10px;
+    background-color: rgba(0,132,253,255);
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .clean-code{
     background-color: rgba(181,221,255,255);
-    border: 1px solid black;
-    height: 200px;
+    height: 240px;
     border-radius: 10px;
     margin-right: 490px;
     margin-left: 172px;
 }
 
-/* COL 33 MAIN */
+.fa-file-code{
+    font-size: 80px;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.text-clean-code{
+    text-align: center;
+    color: rgba(0,132,253,255);
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.text-clean-code-1{
+    text-align: center;
+    padding-top: 10px;
+    color: #595959;
+}
 
 .col-33-main-1{
     width: 290px;
@@ -105,10 +144,27 @@ main{
 
 .web-design{
     background-color: rgba(181,221,255,255);
-    border: 1px solid black;
-    height: 200px;
-    border-radius: 10px;
-    
+    height: 240px;
+    border-radius: 10px;    
+}
+
+.fa-pen{
+    font-size: 80px;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.text-web-design{
+    text-align: center;
+    color: rgba(0,132,253,255);
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.text-web-design-1{
+    text-align: center;
+    padding-top: 10px;
+    color: #595959;
 }
 
 .col-33-main-2{
@@ -120,10 +176,27 @@ main{
 
 .developement{
     background-color: rgba(181,221,255,255);
-    border: 1px solid black;
-    height: 200px;
+    height: 240px;
     border-radius: 10px;
-    
+}
+
+.fa-laptop-code{
+    font-size: 80px;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.text-developement{
+    text-align: center;
+    color: rgba(0,132,253,255);
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.text-developement-1{
+    text-align: center;
+    padding-top: 10px;
+    color: #595959;
 }
 
 .col-33-main-3{
@@ -133,11 +206,30 @@ main{
 
 .branding{
     background-color: rgba(181,221,255,255);
-    border: 1px solid black;
-    height: 200px;
+    height: 240px;
     border-radius: 10px;
-    
 }
+
+.fa-bullhorn{
+    font-size: 80px;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.text-branding{
+    text-align: center;
+    color: rgba(0,132,253,255);
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.text-branding-1{
+    text-align: center;
+    padding-top: 10px;
+    color: #595959;
+}
+
+
 
 /* MAIN 2 */
 .container-main-2{
