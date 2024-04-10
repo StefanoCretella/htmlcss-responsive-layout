@@ -229,12 +229,10 @@ main{
     color: #595959;
 }
 
-
-
 /* MAIN 2 */
 .container-main-2{
     max-width: 1900px;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
     background-color: rgba(151,146,228,255);
 }
@@ -250,19 +248,75 @@ main{
 }
 
 .square-1{
-    background-color: yellow;
-    border: 1px solid black;
     width: 500px;
     height: 600px;
     margin-left: 450px;
 }
 
-.square-2{
-    background-color: yellow;
-    border: 1px solid black;
-    width: 500px;
-    height: 600px;
+.img-square-1{
+    width: 350px;
+    height: 370px;
+    margin-left: 84px;
+    margin-top: 20px;
 }
+
+.text-square-1{
+    font-size: 30px;
+    width: 250px;
+    margin-left: 80px;
+    padding-top: 30px;
+    color: white;
+}
+
+.text-2-square-1{
+    padding-top: 30px;
+    margin-left: 80px;
+    color: white;
+}
+
+.square-2{
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 475px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.img-square-2{
+    width: 250px;
+    height: 250px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.text-square-2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.text-2-square-2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.text-3-square-2{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 15px;
+    background-color: rgba(151,146,228,255);
+    padding: 18px 20px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
 
 /* MAIN 3 */
 .container-main-3{
