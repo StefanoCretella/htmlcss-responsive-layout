@@ -405,10 +405,6 @@ main{
         font-size: 20px;
 }
 
-
-
-
-
 /* MAIN 4 */
 .container-main-4{
     max-width: 1900px;
@@ -449,8 +445,36 @@ main{
     height: 400px;
     border: 1px solid black;
     margin-bottom: 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: white;
+}
+
+.number{
+    color: rgba(151, 146, 228, 255);
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.title-number{
+    color: rgba(151, 146, 228, 255);
+    padding-left: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.text-number{
+    color: #595959;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.link-number{
+    background-color: rgba(151, 146, 228, 255);
+    padding: 10px 40px;
+    margin-left: 20px;
+    border-radius: 30px;
 }
 
 .mini-col-center-4{
@@ -458,7 +482,7 @@ main{
     height: 400px;
     border: 1px solid black;
     margin-bottom: 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: white;
     margin-left: 30px;
     margin-right: 30px;
